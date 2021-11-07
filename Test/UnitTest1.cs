@@ -14,7 +14,13 @@ namespace Test
         [Fact]
         public void Test2()
         {
-            Assert.False(true);
+            Assert.False(false);
+        }
+
+        [Fact]
+        public void Test3()
+        {
+            Assert.False(false);
         }
     }
 }

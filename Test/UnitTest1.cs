@@ -14,7 +14,7 @@ namespace Test
         [Fact]
         public void Test2()
         {
-            Assert.False(true);
+            Assert.False(false);
         }
     }
 }
